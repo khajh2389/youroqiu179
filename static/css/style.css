@@ -1,0 +1,437 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-height: 100%;
+}
+body {
+  font: 400 18px/1.4 ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+  background: #1B1E22;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  border-bottom: 2px;
+  word-wrap: break-word;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.wrap .title{
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.wrap .title em{
+  font-style: normal;
+  color: #3CFF85;
+}
+
+.header{
+  padding: 40px 0;
+}
+.header .brand{
+  margin-bottom: 120px;
+}
+.header h2{
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 60px;
+}
+.header h2 em{
+  font-style: normal;
+  color: #3CFF85;
+}
+.header p{
+  text-align: center;
+  font-size: 22px;
+  color: #7F7F7F;
+  padding: 0;
+  margin-bottom: 100px;
+}
+.header .guide{
+  text-align: center;
+  margin-bottom: 200px;
+}
+.header .guide .btn-launch{
+  width: 180px;
+  height: 56px;
+  line-height: 54px;
+  text-align: center;
+  color: #1B1E22;
+  font-weight: 600;
+  background: #3CFF85 url("../img/arrow-right.svg") no-repeat;
+  background-position: 136px center;
+  background-size: 16px;
+  border-radius: 8px;
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 16px;
+  margin-right: 30px;
+  border: 1px solid #3CFF85;
+}
+.header .guide .btn-contact{
+  width: 140px;
+  height: 56px;
+  line-height: 54px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  background: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid #fff;
+}
+
+.slogan{
+  text-align: center;
+}
+.slogan h3{
+  font-size: 36px;
+  line-height: 1.8;
+  text-align: center;
+  padding: 0 80px;
+  margin-bottom: 40px;
+  color: #7F7F7F;
+  display: block;
+}
+.slogan h3 strong{
+  color: #fff;
+}
+.slogan img{
+  margin: 40px auto;
+  margin-bottom: 160px;
+}
+.features{
+  margin-bottom: 100px;
+}
+.features .item{
+  width: 33.3333%;
+  float: left;
+  margin-bottom: 100px;
+  padding: 0 40px;
+}
+.features .item h5{
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+.features .item p{
+  font-size: 16px;
+  color: #7F7F7F;
+}
+
+.whyus{
+  margin-bottom: 200px;
+}
+.whyus .item{
+  width: 40%;
+  float: left;
+  border-radius: 8px;
+  background: #23262A;
+  display: inline-block;
+  margin: 0 5%;
+  padding: 30px 40px;
+  text-align: center;
+}
+.whyus .item p{
+  line-height: 1.2;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.whyus .item p strong{
+  color: #3CFF85;
+  font-size: 24px;
+  padding: 0 4px;
+}
+.whyus .item span{
+  font-size: 14px;
+  color: #7F7F7F;
+}
+
+.integration{
+  margin-bottom: 200px;
+}
+.integration .item{
+  width: 33.3333%;
+  float: left;
+  padding: 0 40px;
+}
+.integration .item h5{
+  font-size: 20px;
+  margin: 14px 0;
+}
+.integration .item p{
+  color: #7F7F7F;
+  font-size: 14px;
+}
+
+.partners .item{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.partners .item a{
+  display: inline-block;
+  margin: 20px 30px;
+}
+
+.footer{
+  border-top: 1px solid #2C2F33;
+  padding: 40px 0;
+}
+.footer .copyright{
+  float: left;
+  font-size: 14px;
+  color: #7F7F7F;
+  line-height: 1.6;
+}
+.footer .copyright a{
+  opacity: .8;
+}
+
+.footer .social{
+  float: right;
+  margin-top: 20px;
+}
+.footer .social a{
+  opacity: .4;
+  padding: 10px;
+}
+.footer .social a:hover{
+  opacity: 1;
+}
+
+@media (max-width: 1100px) {
+  .header,
+  .footer{
+    padding: 30px;
+  }
+  .header .brand,
+  .header .guide{
+    margin-bottom: 100px;
+  }
+  .header h2{
+    margin-bottom: 40px;
+  }
+  .header p,
+  .features{
+    margin-bottom: 80px;
+  }
+  .slogan h3{
+    margin-bottom: 20px;
+  }
+  .slogan img{
+    width: 400px!important;
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .brand,
+  .header .guide,
+  .whyus,
+  .integration{
+    margin-bottom: 80px;
+  }
+  .header h2{
+    font-size: 60px;
+  }
+  .header p{
+    font-size: 18px;
+  }
+  .header p,
+  .features,
+  .features .item,
+  .wrap .title{
+    margin-bottom: 60px;
+  }
+  .slogan h3{
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .slogan img{
+    width: 320px!important;
+    margin-bottom: 100px;
+  }
+  .features .item{
+    width: 50%;
+  }
+  .features .item h5{
+    margin: 10px 0;
+  }
+  .whyus .item{
+    width: 90%;
+    margin-bottom: 30px;
+    padding: 40px;
+  }
+  .integration .item{
+    width: 50%;
+    margin-bottom: 60px;
+  }
+  .partners .item a{
+    margin: 20px;
+  }
+  .partners .item a img{
+    height: 30px!important;
+  }
+}
+
+@media (max-width: 640px) {
+  .header,
+  .footer{
+    padding: 30px 20px;
+  }
+  .header .brand,
+  .header .guide,
+  .whyus, .integration,
+  .partners .item{
+    margin-bottom: 40px;
+  }
+  .header .brand{
+    text-align: center;
+  }
+  .header .brand img{
+    width: 140px!important;
+  }
+  .header h2{
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  .header p{
+    font-size: 16px;
+  }
+  .slogan h3{
+    font-size: 24px;
+    padding: 0 40px;
+  }
+  .slogan img{
+    width: 280px!important;
+  }
+  .wrap .title{
+    font-size: 40px;
+  }
+  .features .item{
+    min-height: 220px;
+    display: block;
+  }
+  .whyus .item{
+    padding: 30px;
+  }
+  .integration .item{
+    width: 100%;
+    text-align: center;
+  }
+  .integration .item h5{
+    margin: 8px 0;
+  }
+  .partners .item a{
+    margin: 10px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .brand,
+  .header .guide,
+  .whyus, .integration,
+  .partners .item,
+  .header h2{
+    margin-bottom: 20px;
+  }
+  .header h2{
+    font-size: 40px;
+  }
+  .header p{
+    font-size: 14px;
+  }
+  .header .guide{
+    padding: 0 60px;
+    margin-bottom: 40px;
+  }
+  .header .guide .btn-launch{
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    background: #3CFF85;
+    margin-bottom: 20px;
+  }
+  .header .guide .btn-contact{
+    width: 100%;
+  }
+  .slogan h3{
+    font-size: 20px;
+  }
+  .slogan img,
+  .features,
+  .whyus,
+  .integration{
+    margin-bottom: 80px;
+  }
+  .wrap .title{
+    font-size: 34px;
+  }
+  .features .item{
+    width: 100%;
+    text-align: center;
+    min-height: 0;
+  }
+  .features .item h5{
+    margin: 4px 0 10px;
+  }
+  .features .item p,
+  .integration .item p{
+    padding: 0 20px;
+  }
+  .integration .item h5{
+    margin: 4px 0 8px;
+  }
+  .wrap.partners .title{
+    margin-bottom: 40px;
+  }
+  .partners .item{
+    padding: 0 20px;
+  }
+  .partners .item a{
+    width: 50%;
+    text-align: center;
+    margin: 0 0 30px;
+    float: left;
+  }
+  .footer .copyright,
+  .footer .social{
+    width: 100%;
+    text-align: center;
+  }
+  .footer .social a img{
+    width: 20px!important;
+    height: 20px!important;
+  }
+}
+
+@media (max-width: 320px) {
+  .partners .item a{
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}
+
