@@ -417,7 +417,7 @@ img {
 @media (max-width: 640px) {
   .header,
   .footer{
-    padding: 30px 20px;
+    padding: 30px;
   }
   .header .brand,
   .header .guide,
@@ -425,9 +425,9 @@ img {
   .partners .item{
     margin-bottom: 40px;
   }
-  .header .brand{
+/*  .header .brand{
     text-align: center;
-  }
+  }*/
   .header .brand img{
     width: 140px!important;
   }
@@ -488,7 +488,6 @@ img {
 }
 
 @media (max-width: 480px) {
-  .header .brand,
   .header .guide,
   .whyus, .integration,
   .partners .item,
@@ -502,7 +501,7 @@ img {
     padding: 0 30px;
   }
   .header .guide{
-    padding: 0 60px;
+    padding: 0 40px;
     margin-bottom: 40px;
   }
   .header .guide .btn-launch{
@@ -565,8 +564,29 @@ img {
   .footer .copyright p{
     margin-bottom: 10px;
   }
+  .language-menus{
+    width: 136px;
+    margin-bottom: 40px;
+  }
+  .whyus .item{
+    padding: 20px;
+  }
+  .features .item p{
+    min-height: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .partners .item a{
+    width: 100%;
+    margin-bottom: 18px;
+  }
   .header .brand{
+    text-align: center;
     margin-bottom: 10px;
+  }
+  .header h2{
+    margin: 40px 0 20px;
   }
   .language-menus{
     position: relative;
@@ -575,18 +595,30 @@ img {
     text-align: center;
     display: block;
     margin: 0 auto;
-    width: 136px;
-    margin-bottom: 40px;
   }
   .dropdown-content{
     right: auto;
     left: -30px;
   }
-}
-
-@media (max-width: 320px) {
+  .header h2{
+    font-size: 36px;
+  }
+  .header .guide p{
+    margin: 30px 0;
+  }
+  .whyus .item{
+    padding: 20px 14px;
+  }
+  .whyus .item p{
+    margin-bottom: 20px;
+  }
   .partners .item a{
-    width: 100%;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
+  }
+  .partners .item a img{
+    height: 34px !important;
+  }
+  .footer .social a{
+    padding: 8px;
   }
 }
