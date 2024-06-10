@@ -188,7 +188,7 @@ img {
   padding: 0 20px;
   max-width: 940px;
   margin: 40px auto;
-  color: #7F7F7F;
+  color: #909090;
   display: block;
 }
 .slogan h3 strong{
@@ -417,17 +417,16 @@ img {
 @media (max-width: 640px) {
   .header,
   .footer{
-    padding: 30px;
+    padding: 30px 20px;
   }
-  .header .brand,
   .header .guide,
   .whyus, .integration,
   .partners .item{
     margin-bottom: 40px;
   }
-/*  .header .brand{
-    text-align: center;
-  }*/
+  .header .brand{
+    margin-bottom: 60px;
+  }
   .header .brand img{
     width: 140px!important;
   }
@@ -461,6 +460,9 @@ img {
   }
   .partners .item a{
     margin: 10px 14px;
+  }
+  .language-menus{
+    right: 20px;
   }
   .dropbtn{
     width: 136px;
