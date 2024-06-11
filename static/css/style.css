@@ -515,14 +515,14 @@ img {
     padding: 0 40px;
     margin-bottom: 40px;
   }
-  .header .guide .btn-launch{
+  .header .guide a.btn-launch{
     width: 100%;
     padding-right: 0;
     margin-right: 0;
     background: #3CFF85;
     margin-bottom: 20px;
   }
-  .header .guide .btn-contact{
+  .header .guide a.btn-contact{
     width: 100%;
   }
   .slogan h3{
