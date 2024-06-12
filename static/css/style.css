@@ -65,27 +65,31 @@ img {
 }
 .dropbtn {
   background: #23262A url("../img/arrow-bottom.svg") 124px center no-repeat;
-  color: #fff;
+  color: rgba(255,255,255,.8);
   font-size: 16px;
+  text-align: left;
+  padding-left: 46px;
   width: 150px;
   height: 46px;
-  line-height: 46px;
+  line-height: 48px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
   position: relative;
+  border: none;
 }
 .icon-language{
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   position: absolute;
   background: url("../img/icon-language.svg") no-repeat;
-  background-size: 20px 20px;
-  top: 14px;
+  background-size: 18px 18px;
+  top: 15px;
   left: 16px;
 }
 .dropbtn:hover,
 .dropbtn:focus {
+  color: #fff;
   background: #2A2E33 url("../img/arrow-bottom.svg") 124px center no-repeat;
 }
 .dropdown {
@@ -509,7 +513,7 @@ transition: transform 0.2s linear;
   .dropbtn{
     width: 140px;
     height: 44px;
-    line-height: 44px;
+    line-height: 46px;
     font-size: 16px;
     background: #23262A url(../img/arrow-bottom.svg) 110px center no-repeat;
 
@@ -517,12 +521,6 @@ transition: transform 0.2s linear;
   .dropbtn:hover,
   .dropbtn:focus {
     background: #2A2E33 url("../img/arrow-bottom.svg") 110px center no-repeat;
-  }
-  .icon-language{
-    width: 16px;
-    height: 16px;
-    background-size: 16px 16px;
-    top: 14px;
   }
   .footer .copyright,
   .footer .social{
