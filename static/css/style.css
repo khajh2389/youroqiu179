@@ -68,7 +68,7 @@ img {
   color: rgba(255,255,255,.8);
   font-size: 16px;
   text-align: left;
-  padding-left: 46px;
+  padding-left: 44px;
   width: 150px;
   height: 46px;
   line-height: 48px;
@@ -478,7 +478,6 @@ transition: transform 0.2s linear;
   }
   .header h2{
     font-size: 48px;
-    line-height: 1.2;
   }
   .slogan h3{
     font-size: 24px;
@@ -515,12 +514,11 @@ transition: transform 0.2s linear;
     height: 44px;
     line-height: 46px;
     font-size: 16px;
-    background: #23262A url(../img/arrow-bottom.svg) 110px center no-repeat;
-
+    background: #23262A url(../img/arrow-bottom.svg) 114px center no-repeat;
   }
   .dropbtn:hover,
   .dropbtn:focus {
-    background: #2A2E33 url("../img/arrow-bottom.svg") 110px center no-repeat;
+    background: #2A2E33 url("../img/arrow-bottom.svg") 114px center no-repeat;
   }
   .footer .copyright,
   .footer .social{
