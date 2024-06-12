@@ -273,7 +273,7 @@ transition: transform 0.2s linear;
   transition: transform 0.2s linear;
 }
 .whyus .item p{
-  line-height: 1.2;
+/*  line-height: 1.2;*/
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -434,7 +434,7 @@ transition: transform 0.2s linear;
   }
   .slogan h3{
     font-size: 30px;
-    line-height: 1.4;
+    line-height: 1.6;
     padding: 0 80px;
   }
   .slogan img{
